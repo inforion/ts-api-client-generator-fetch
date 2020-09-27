@@ -1,0 +1,52 @@
+{
+  "name": "ts-api-client-generator-fetch",
+  "version": "1.0.0",
+  "description": "'fetch' request adapter for ts-api-client-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inforion/ts-api-client-generator-fetch.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "Typescript",
+    "REST",
+    "API",
+    "HTTP",
+    "generation",
+    "fetch",
+    "adapter"
+  ],
+  "main": "./dist/bundle.js",
+  "types": "./src/index.d.ts",
+  "files": [
+    "dist",
+    "src/**/*.ts"
+  ],
+  "author": "Nikolay Kudryavtsev <n.kudriavtsev@inforion.ru>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "ts-api-client-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "14.11.2",
+    "@typescript-eslint/eslint-plugin": "3.4.0",
+    "@typescript-eslint/parser": "3.4.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-import-resolver-typescript": "2.0.0",
+    "eslint-plugin-disable": "2.0.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-no-loops": "0.3.0",
+    "eslint-plugin-simple-import-sort": "5.0.3",
+    "eslint-plugin-sonarjs": "0.5.0",
+    "eslint-plugin-unicorn": "19.0.1",
+    "ts-api-client-generator": "^1.0.0",
+    "ts-loader": "8.0.4",
+    "typescript": "4.0.2",
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.12"
+  }
+}
