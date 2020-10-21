@@ -7,7 +7,7 @@ import {
 } from 'ts-api-client-generator';
 
 function getAuthHeader(credentials: Credentials): string {
-    const base64Credentials = atob(`${credentials.login}:${credentials.password}`);
+    const base64Credentials = btoa(`${credentials.login}:${credentials.password}`);
     return `Basic ${base64Credentials}`;
 }
 
