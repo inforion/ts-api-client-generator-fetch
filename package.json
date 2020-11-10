@@ -1,6 +1,6 @@
 {
   "name": "ts-api-client-generator-fetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "'fetch' request adapter for ts-api-client-generator",
   "repository": {
     "type": "git",
